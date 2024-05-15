@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import Signinform from "./Signinform";
 
 function Signin() {
   return (
-    <div>
-      This is Signin
+   <>
+    <div className="flex align-middle justify-center">
+    <Signinform/>
     </div>
-  )
+   </>
+  );
 }
 
-export default Signin
+export default Signin;
