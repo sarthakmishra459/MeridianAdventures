@@ -1,11 +1,13 @@
 import React from 'react'
-import Navbar from './Navbar'
+import {Link , NavLink} from 'react-router-dom'
 
 function Header() {
   return (
-    <div>
-      <Navbar/>
-    </div>
+    <header>
+      <nav>
+        <Link to="/" className=''><img src="../../public/letter-m.png" alt="Logo" /></Link>
+      </nav>
+    </header>
   )
 }
 
