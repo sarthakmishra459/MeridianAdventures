@@ -3,11 +3,9 @@ import Signinform from "./Signinform";
 
 function Signin() {
   return (
-   <>
-    <div className="flex align-middle justify-center">
-    <Signinform/>
+    <div className=" h-full w-full flex justify-center align-middle">
+      <Signinform />
     </div>
-   </>
   );
 }
 
